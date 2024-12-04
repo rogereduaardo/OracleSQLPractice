@@ -29,3 +29,6 @@ values ( 'Ginger','Golden Retreiver', 45, 'Dead' ) ;
 #Updated grammar error
 update dogs set dog_type = 'Golden Retriever' where dog_name = 'Homer';
 update dogs set dog_type = 'Golden Retriever' where dog_name = 'Ginger';
+
+#Used Delete statement
+Delete from dogs where dog_name='Ginger';
