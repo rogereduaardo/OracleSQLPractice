@@ -1,0 +1,4 @@
+Create table dogs (
+Dog_name varchar2(20),
+Dog_type varchar2(20),
+Dog_weight number ) ;
