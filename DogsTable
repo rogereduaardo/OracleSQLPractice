@@ -24,3 +24,8 @@ Insert into dogs (dog_name,dog_type, dog_weight, status)
 values ( 'Sonny','Mutt', 75, 'Dead' ) ;
 Insert into dogs (dog_name,dog_type, dog_weight, status)
 values ( 'Ginger','Golden Retreiver', 45, 'Dead' ) ;
+
+
+#Updated grammar error
+update dogs set dog_type = 'Golden Retriever' where dog_name = 'Homer';
+update dogs set dog_type = 'Golden Retriever' where dog_name = 'Ginger';
