@@ -5,8 +5,12 @@ Dog_type varchar2(20),
 Dog_weight number ) ;
 
 
+#Used Insert statement
 Insert into dogs (dog_name, dog_type, dog_weight) values ( 'Homer', 'Golden
 Retriever', 75 ) ;
 
-
+#Used Update statemen
 UPDATE dogs SET dog_weight = 65 WHERE dog_name = 'Homer';
+
+#Used Alter statement
+alter table dogs add (status varchar2(10));
