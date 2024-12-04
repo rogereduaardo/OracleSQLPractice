@@ -17,3 +17,10 @@ alter table dogs add (status varchar2(10));
 
 
 update dogs set status='Dead' where dog_name='Homer';
+
+
+#Inserted more rows to the table
+Insert into dogs (dog_name,dog_type, dog_weight, status)
+values ( 'Sonny','Mutt', 75, 'Dead' ) ;
+Insert into dogs (dog_name,dog_type, dog_weight, status)
+values ( 'Ginger','Golden Retreiver', 45, 'Dead' ) ;
