@@ -1,3 +1,4 @@
+#TableCreated
 Create table dogs (
 Dog_name varchar2(20),
 Dog_type varchar2(20),
@@ -6,3 +7,6 @@ Dog_weight number ) ;
 
 Insert into dogs (dog_name, dog_type, dog_weight) values ( 'Homer', 'Golden
 Retriever', 75 ) ;
+
+
+UPDATE dogs SET dog_weight = 65 WHERE dog_name = 'Homer';
